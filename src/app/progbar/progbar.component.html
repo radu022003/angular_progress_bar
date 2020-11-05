@@ -1,0 +1,8 @@
+<div>
+    <label for="main">{{mainLabel}}</label>
+    <div class="progress-bar-container" (click)="clickEvent($event)" id="main">
+            <div class="progress-bar {{color}}" 
+            [ngStyle]="{'width': progress + '%'}">
+            </div>
+    </div>
+</div>
